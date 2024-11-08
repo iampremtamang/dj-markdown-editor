@@ -23,8 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 
-with open(os.path.join(BASE_DIR, ".env")) as f:
-    SECRET_KEY = f.read().strip()
+SECRET_KEY="+1zhx_fpkkyj&z+3n!63fx0)og)@h5^7qyr8e0s%c@p8_&t&+l"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
